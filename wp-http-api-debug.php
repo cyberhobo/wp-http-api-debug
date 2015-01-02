@@ -3,7 +3,7 @@
  * Plugin Name: WP Http API Debug
  * Plugin URI:  https://github.com/cyberhobo/wp-http-api-debug
  * Description: Provides a way to record and view recent requests made using the WordPress HTTP API.
- * Version:     0.1.0
+ * Version:     0.1.1
  * Author:      Dylan Kuhn
  * Author URI:  http://cyberhobo.net/
  * License:     GPL-2.0+
