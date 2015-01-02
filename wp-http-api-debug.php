@@ -90,9 +90,11 @@ class DKK_Http_Api_Debug {
 		echo '<h2>Log</h2>';
 
 		$log = self::get_log();
+		if ( !is_serialized_string( $log ) )
+			$log = serialize( $log );
 
 		echo '<pre>';
-		var_dump( $log );
+		echo $log;
 		echo '</pre>';
 
 		printf( '<form method="POST">' );
